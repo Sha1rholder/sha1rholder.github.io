@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="color-scheme" content="light dark">
-	<meta name="description" content="Sha1rholder的个人主页：项目、文章，以及正在做的事">
+	<meta name="description" content="Sha1rholder's personal website">
 	<title>Sha1rholder · sha1.dev</title>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +14,13 @@
 	<a class="skip-link" href="#main">跳到正文</a>
 	<div class="page">
 		<header class="masthead">
-			<h1 id="intro-title" class="wordmark" lang="en"><u>Sha1</u>rholder's Website</h1>
+			<div class="masthead-brand">
+				<a class="avatar-link" href="https://github.com/Sha1rholder" aria-label="Sha1rholder的GitHub主页">
+					<img src="https://avatars.githubusercontent.com/u/96712109?s=128&amp;v=4" alt="" width="52"
+						height="52">
+				</a>
+				<h1 id="intro-title" class="wordmark" lang="en"><u>Sha1</u>rholder's Website</h1>
+			</div>
 			<nav aria-label="页内导航">
 				<a href="#projects">项目</a>
 				<a href="#articles">文章</a>
@@ -42,8 +48,8 @@
 							<dd>hqywygd</dd>
 						</div>
 						<div>
-							<dt>电话</dt>
-							<dd>要不还是用邮箱？爬虫什么都知道</dd>
+							<dt>GitHub</dt>
+							<dd><a href="https://github.com/sha1rholder">GitHub:Sha1rholder</a></dd>
 						</div>
 						<div>
 							<dt>Steam</dt>
@@ -53,23 +59,26 @@
 					</dl>
 				</section>
 
-				<h2 id="traits-title" class="traits-title" lang="en">Traits<small>自我介绍？就求职方面来讲的话……</small></h2>
+				<h2 id="traits-title" class="traits-title" lang="en">Traits<small
+						style="margin-left: 2em;">自我介绍？就求职方面来讲的话……</small></h2>
 
 				<ul class="traits-list" aria-labelledby="traits-title">
-					<li>∵ 广泛而强烈的兴趣（翻翻我的<a href="https://github.com/sha1rholder">GitHub</a>和文章，你会信的）</li>
+					<li>∵ 对全世界的知识广泛而强烈的兴趣（翻翻我的<a href="https://github.com/sha1rholder">GitHub</a>和文章，虽只是冰山一角）</li>
 					<li>∵ 以疯狂的速度学习想学的东西（两眼一睁，该蒸馏GPT了）</li>
-					<li>∵ 喜欢CS（<i>Computer Science</i> and <i>Counter-Strike</i>，<del>但水平都一般</del>）</li>
-					<li>∵ <del>自认为</del>是游戏理解相当出众的骨灰级<a href="https://moegirl.icu/%E5%A9%86%E7%BD%97%E9%97%A8"
-							title="讽刺自认为游戏品味“高贵”的玩家">婆罗门玩家</a> <a
+					<li>∵ 做题蛆——<strong>浙江大学 · University of Edinburgh 2027届生物信息学双学位全日制英授本科</strong></li>
+					<li>∵ CSer（<i>Computer Science</i> and <i>Counter-Strike</i>，<del>水平一般</del>）</li>
+					<li>∵ <del>自认为</del>游戏理解相当出众的骨灰级<a href="https://moegirl.icu/%E5%A9%86%E7%BD%97%E9%97%A8"
+							title="讽刺自认为游戏品味“高贵”的玩家">单机婆罗门玩家</a>（Major in ARPG/Shooter）<a
 							href="https://steamcommunity.com/id/Sha1rholder/"><span aria-hidden="true">↗</span>Steam</a>
 					</li>
-					<li>∵ <strong>高度社会化——我很随和，而且能够懂规矩</strong></li>
+					<li>∵ Hi-Fi/游戏/电脑/开源/数码快消行业……永远在发烧的发烧友</li>
+					<li>∵ <strong>高度社会化——性格随和，脾气超好，而且懂规矩。</strong>无论在开源社区还是公司里，保持谦逊，保持尊重，保持温和</li>
 					<li>
-						∴ 张君一（aka <i>Sha1rholder</i>, a <q>very kind worm</q>）</li>
+						∴ It's me, <strong>张君一</strong>, aka <i>Sha1rholder</i>, a <q>very kind worm</q></li>
 				</ul>
-				<details class="site-note" open>
+				<details class="site-note">
 					<summary>至于这个页面为什么这么朴素……</summary>
-					<p>或许是因为它是某个因为找不到心仪的SSG（静态网站生成器）而心碎的人为了简历上好看点凑数的。等有空再优化一下吧。我还是懂一点前端框架的，though I have never favored
+					<p>或许是因为它是某个因为找不到心仪的SSG（静态网站生成器）而心碎的人为了简历上好看点凑数的。等有空再优化一下吧。我会一点点前端框架，though I've never favored
 						any of them.</p>
 					<p>可不是我偷懒哦！实在是因为Markdown的语义太烂了看不上，Typst在HTML映射方面成熟度又比较糟<a
 							href="https://github.com/typst/typst/pull/8874">（我还给他们提了PR）</a>，只能干脆手搓个静态HTML凑合一下了（I hate
@@ -85,8 +94,9 @@
 				<article>
 					<a class="card" href="fosi.html">
 						<div class="card-copy">
-							<h3 lang="en">深圳远虑科技有限公司 </h3>
-							<p>Click here for details↗</p>
+							<h3 lang="en">深圳远虑科技有限公司 <span style="margin-left: 1em;">2025年3-6月</span></h3>
+							<p>Click for details↗ <strong>Most people BS their way through their internship. <u>I
+										don't.</u></strong></p>
 						</div>
 						<span class="card-arrow" aria-hidden="true">↗</span>
 					</a>
@@ -121,7 +131,7 @@
 				<article class="card">
 					<div class="card-copy">
 						<h3>等等……</h3>
-						<p><del>其实我有个写小说、做游戏、写软件的梦</del></p>
+						<p><del>其实我有个写小说、做游戏、写让全世界变得更美好的软件的梦</del></p>
 						<span class="card-domain">???.sha1.dev</span>
 					</div>
 					<span class="card-arrow" aria-hidden="true">↗</span>
@@ -162,9 +172,9 @@
 						<h3 lang="en"><a class="card-link"
 								href="https://medium.com/@sha1rholder/hidden-marketing-wars-of-chinese-consumer-electronics-part-i-95f07e5df78a">Hidden
 								Marketing Wars of Chinese Consumer Electronics: Part I</a></h3>
-						<p>从国产音频品牌的一场营销暗战，看“客观评测”背后的品牌、KOL与MCN。试图压下负面声音，反而让争议扩散——<a
-								href="https://en.wikipedia.org/wiki/Streisand_effect" lang="en">Streisand
-								Effect</a>（史翠珊效应）如何让封禁变成对手的助攻？</p>
+						<p>从国产音频品牌的一场真实营销暗战。“客观评测”背后的品牌、KOL与MCN。试图压下负面声音，反而让争议扩散——<a
+								href="https://en.wikipedia.org/wiki/Streisand_effect" lang="en"
+								title="指试图隐藏某事，反而造成此事广为人知的现象。类似于“欲盖弥彰”">Streisand Effect</a>如何让封禁变成对手的助攻？</p>
 					</div>
 					<a class="card-link card-arrow"
 						href="https://medium.com/@sha1rholder/hidden-marketing-wars-of-chinese-consumer-electronics-part-i-95f07e5df78a"
@@ -174,8 +184,8 @@
 				<article class="card">
 					<div class="card-copy">
 						<span class="entry-meta">未完待续</span>
-						<h3>对用户交互式探索菜单的多维有限元分析与设计启示</h3>
-						<p>说是有限元分析，其实更多是关乎图论，旨在解析用户“找某个设置项”的UI/UX偏好与“应该如何设计UI”的一些个人理解</p>
+						<h3>对用户交互式探索菜单的“有限元分析”与设计启示</h3>
+						<p>说是有限元分析，其实更多是关乎图论。本文解析用户“找某个设置项”的UI/UX偏好与“应该如何设计UI”的一些个人理解</p>
 						<p>通过模拟不同类用户对抽象后的各类UI的“探索失望度累计”、“找到正确项的耗时与次数”、“overall-effort”等指标，启发UI设计的信息呈现模式并预测其效应</p>
 					</div>
 				</article>
@@ -202,9 +212,9 @@
 					<li>写很多很多各种各样的文章……<p>🕊️ 🕊️ 🕊️</p>
 					</li>
 					<li>
-						<span>米奇妙妙保密项目。I mean, literally这不适合公开宣传！</span><span
-							hidden>如果你看到这段，那你是个爬虫，或者是F12领域大神，可惜你没法来找我当面聊聊</span>
-						<p>我不是什么厉害的hacker，但确实略懂一些网络和密码学</p>
+						<span>米奇妙妙保密项目。I mean, 这真的不适合公开！</span><span
+							hidden>如果你看到这段，那你是个爬虫，亦或是F12领域大神，可惜你没法来找我当面聊聊</span>
+						<p>我不是什么超级hacker，但确实还略懂一些网络和密码学</p>
 					</li>
 				</ul>
 			</section>
@@ -215,10 +225,10 @@
 				</header>
 				<p>Kinda awkward but I do sometimes帮海外友人代购一些Hi-Fi器材为主的国产产品</p>
 				<p>网站在<a href="https://chifiagent.com">https://chifiagent.com<span aria-hidden="true">
-							↗</span></a>，收费和条款非常良心。虽然我已退出Hi-Fi行业久矣，但有时帮忙代购还挺忙的</p>
+							↗</span></a>，收费和条款非常良心。虽然我已退出Hi-Fi行业久矣，但有时帮点小忙也算换换脑子</p>
 			</section>
 		</main>
-		<footer>sha1.dev</footer>
+		<footer><a href="https://en.wikipedia.org/wiki/SHA-1"><i>Secure Hash Algorithm 1</i></a></footer>
 	</div>
 </body>
 
