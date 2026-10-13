@@ -112,6 +112,10 @@ a:hover {
 	overflow-wrap: anywhere;
 }
 
+.wordmark span {
+	color: #ffd700;
+}
+
 .wordmark u {
 	text-decoration-thickness: .06em;
 	text-underline-offset: .12em;
